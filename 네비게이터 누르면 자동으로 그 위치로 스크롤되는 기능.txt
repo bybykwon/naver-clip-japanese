@@ -1,0 +1,42 @@
+React에서 버튼 클릭 시 특정 위치로 스크롤되도록 하는 기능은 ref를 사용하여 구현할 수 있습니다. useRef 훅을 이용하여 DOM 요소를 참조한 뒤, scrollIntoView 메서드를 호출하면 됩니다.
+
+아래는 버튼을 클릭하면 특정 섹션으로 스크롤되는 기능을 구현한 예제입니다:
+
+
+import React, { useRef } from "react";
+
+function ScrollNavigator() {
+  // 각 섹션의 ref 생성
+  const section1Ref = useRef(null);
+  const section2Ref = useRef(null);
+  const section3Ref = useRef(null);
+
+  // 스크롤 함수
+  const scrollToSection = (ref) => {
+    ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  return (
+    <div>
+      {/* 네비게이션 버튼 */}
+      <nav style={{ position: "fixed", top: 0, background: "white", padding: "10px", zIndex: 100 }}>
+        <button onClick={() => scrollToSection(section1Ref)}>섹션 1로 이동</button>
+        <button onClick={() => scrollToSection(section2Ref)}>섹션 2로 이동</button>
+        <button onClick={() => scrollToSection(section3Ref)}>섹션 3로 이동</button>
+      </nav>
+
+      {/* 각 섹션 */}
+      <div ref={section1Ref} style={{ height: "100vh", background: "#f4a261" }}>
+        <h1>섹션 1</h1>
+      </div>
+      <div ref={section2Ref} style={{ height: "100vh", background: "#2a9d8f" }}>
+        <h1>섹션 2</h1>
+      </div>
+      <div ref={section3Ref} style={{ height: "100vh", background: "#e76f51" }}>
+        <h1>섹션 3</h1>
+      </div>
+    </div>
+  );
+}
+
+export default ScrollNavigator;
