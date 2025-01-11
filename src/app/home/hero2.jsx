@@ -1,8 +1,8 @@
 import { Image } from '@chakra-ui/next-js';
 import { AspectRatio, Heading } from '@chakra-ui/react';
 import React from 'react';
-import MainGif from './maingif';
-import LongButton from './longbutton';
+import MainGif from '../../components/maingif';
+import LongButton from '../../components/longbutton';
 
 const Hero2 = () => {
     return (

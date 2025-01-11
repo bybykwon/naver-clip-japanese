@@ -1,0 +1,17 @@
+import Link from 'next/link';
+import React from 'react';
+
+const LongButton = () => {
+    return (
+        <div className='w-full h-[85px] bg-green-600 text-black flex items-center justify-center'>
+            <Link
+                href='#'
+                className='text-black text-2xl font-bold'
+            >
+                応募する
+            </Link>
+        </div>
+    );
+};
+
+export default LongButton;
