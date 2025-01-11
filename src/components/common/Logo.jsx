@@ -7,9 +7,9 @@ const Logo = ({ size = 10 }) => {
         <Image
             alt='Your Company'
             src='/images/pattern/common/logo.png'
-            width={40}
-            height={40}
-            className={classNames('mx-auto w-auto', `h-${size}`)}
+            width={120}
+            height={120}
+            className={classNames('mx-auto w-auto', `h-${size}`, `ml-10`)}
         />
     );
 };

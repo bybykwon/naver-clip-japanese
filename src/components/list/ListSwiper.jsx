@@ -12,10 +12,10 @@ import Image from 'next/image';
 import { Container } from '@chakra-ui/react';
 
 const slidesData = [
-    { src: '/images/components/itembox1/img_info01_v3.gif', alt: 'Media 1' },
-    { src: '/images/components/itembox1/img_info02_v5.png', alt: 'Media 2' },
-    { src: '/images/components/itembox1/img_info03_v2.png', alt: 'Media 3' },
-    { src: '/images/components/itembox1/img_info04_v2.png', alt: 'Media 1' },
+    { src: '/images/components/itembox1/img_info01_v3.gif', alt: 'Media1' },
+    { src: '/images/components/itembox1/img_info02_v5.png', alt: 'Media2' },
+    { src: '/images/components/itembox1/img_info03_v2.png', alt: 'Media3' },
+    { src: '/images/components/itembox1/img_info04_v2.png', alt: 'Media4' },
 ];
 
 export default function ListSwiper() {
@@ -36,9 +36,16 @@ export default function ListSwiper() {
                     clickable: true,
                 }}
                 breakpoints={{
+                    480: {
+                        slidesPerView: 1.5,
+                        autoplay: true,
+                    },
                     // md
                     768: {
-                        slidesPerView: 2.4,
+                        slidesPerView: 2,
+                        grid: {
+                            rows: 2,
+                        },
                     },
                     // lg
                     1024: {

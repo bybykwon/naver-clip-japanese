@@ -61,7 +61,7 @@ const Header = ({ type = 'type1', title, sharing, prev }) => {
                                         <a
                                             key={item.name}
                                             href={item.href}
-                                            className='text-sm/6 font-semibold text-white'
+                                            className='text-lg font-semibold text-gray-400'
                                         >
                                             {item.name}
                                         </a>

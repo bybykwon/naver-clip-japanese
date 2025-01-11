@@ -11,12 +11,12 @@ const Merit2 = () => {
     return (
         <div className='container'>
             <div className='p-[2px] bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 rounded-lg text-center'>
-                <div className='flex flex-col gap-4 bg-black rounded-lg p-4 h-full'>
+                <div className='flex flex-col gap-4 bg-black rounded-lg p-4 h-full '>
                     <div>
                         <span className='text-4xl text-green-400 to-blue-500 font-bold px-4 py-2 rounded-lg mt-2'>
                             アワード
                         </span>
-                        <p>
+                        <p className=' mt-3 text-xl'>
                             優秀な活動者はもちろん
                             <br />
                             新人活動者まで、

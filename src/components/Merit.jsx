@@ -4,11 +4,13 @@ const Merit1 = () => {
     const items = [
         {
             src: '/images/components/itembox2/ticket1.png',
+            alt: 'ticket1',
             title: 'NaverPay ポイント',
             subtitle: '10万ウォン',
         },
         {
             src: '/images/components/itembox2/ticket2.png',
+            alt: 'ticket2',
             title: 'NaverPay ポイント',
             subtitle: '5万ウォン X 2',
         },
@@ -19,10 +21,10 @@ const Merit1 = () => {
             <div className='p-[2px] bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 rounded-lg text-center'>
                 <div className='flex flex-col gap-4 bg-black rounded-lg p-4 items-center'>
                     <div>
-                        <span className='text-4xl text-green-400 to-blue-500 font-bold px-4 py-2 rounded-lg mt-2'>
+                        <span className='text-4xl text-green-400 to-blue-500 font-bold px-4 py-2 rounded-lg'>
                             活動費
                         </span>
-                        <p>
+                        <p className=' mt-3 text-xl'>
                             全体の活動基準を満たした場合
                             <br />
                             最後の月に<strong>20万ウォン</strong>まで!
@@ -31,28 +33,28 @@ const Merit1 = () => {
                     {items.map((item, index) => (
                         <div
                             key={index}
-                            className='relative w-full max-w-[600px]'
+                            className='relative w-full max-w-[300px] items-center justify-center'
                         >
                             <Image
                                 src={item.src}
                                 alt={item.title}
-                                width={600}
+                                width={300}
                                 height={200}
                                 className='rounded-lg'
                                 style={{ objectFit: 'cover' }}
                             />
                             <div className='absolute inset-0 flex flex-col items-center justify-center text-center'>
-                                <h2 className='text-3xl text-white font-bold px-4 py-2 rounded-lg'>{item.title}</h2>
-                                <em className='text-6xl text-white font-bold px-4 py-2 rounded-lg mt-2'>
+                                <h2 className='text-2xl text-white font-bold px-4 py-2 rounded-lg'>{item.title}</h2>
+                                <em className='text-4xl text-white font-bold px-4 py-2 rounded-lg mt-2'>
                                     {item.subtitle}
                                 </em>
                             </div>
                         </div>
                     ))}
-                    <p>
+                    <p className=' mt-3 text-xl'>
                         活動基準を満たした
                         <br />
-                        <strong>全員に毎月</strong>お支払い!
+                        <strong className='text-green-400'>全員に毎月</strong>お支払い!
                     </p>
                     <ul>
                         <li>* 3ヶ月連続基準達成時、その月に5万ウォン追加</li>
