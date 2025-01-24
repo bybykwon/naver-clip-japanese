@@ -5,18 +5,20 @@ import { mockNews } from '@/data/newsData';
 import Hero2 from './hero2';
 import ListSwiper from '@/components/list/ListSwiper';
 import MeritSec from './meritSector';
+import Introimagebox from './introimagebox';
 
 const Home = () => {
     return (
         <div className='flex flex-col gap-40'>
             <Hero2 />
+            <Introimagebox />
             <ListSwiper />
             <MeritSec />
             <IntroSwiper />
-            <News
+            {/* <News
                 mockNews={mockNews}
                 title='뉴스'
-            />
+            /> */}
         </div>
     );
 };

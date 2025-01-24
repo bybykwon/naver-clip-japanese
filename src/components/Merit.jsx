@@ -18,10 +18,10 @@ const Merit1 = () => {
 
     return (
         <div className='container'>
-            <div className='p-[2px] bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 rounded-lg text-center'>
+            <div className='p-[2px] bg-gradient-to-r from-naver-green via-blue-500 to-purple-600 rounded-lg text-center'>
                 <div className='flex flex-col gap-4 bg-black rounded-lg p-4 items-center'>
                     <div>
-                        <span className='text-4xl text-green-400 to-blue-500 font-bold px-4 py-2 rounded-lg'>
+                        <span className='text-4xl text-naver-green to-blue-500 font-bold px-4 py-2 rounded-lg'>
                             活動費
                         </span>
                         <p className=' mt-3 text-xl'>
@@ -54,7 +54,7 @@ const Merit1 = () => {
                     <p className=' mt-3 text-xl'>
                         活動基準を満たした
                         <br />
-                        <strong className='text-green-400'>全員に毎月</strong>お支払い!
+                        <strong className='text-naver-green'>全員に毎月</strong>お支払い!
                     </p>
                     <ul>
                         <li>* 3ヶ月連続基準達成時、その月に5万ウォン追加</li>

@@ -3,9 +3,9 @@ import Image from 'next/image';
 const Merit3 = () => {
     return (
         <div className='container'>
-            <div className='p-[2px] bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 rounded-lg text-center'>
+            <div className='p-[2px] bg-gradient-to-r from-naver-green via-blue-500 to-purple-600 rounded-lg text-center'>
                 <div className='flex flex-col gap-4 bg-black rounded-lg p-4 h-full items-center'>
-                    <span className='text-4xl text-green-400 to-blue-500 font-bold px-4 py-2 rounded-lg mt-2'>
+                    <span className='text-4xl text-naver-green to-blue-500 font-bold px-4 py-2 rounded-lg mt-2'>
                         広告インセンティブ
                     </span>
                     <p>

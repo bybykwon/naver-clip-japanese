@@ -2,18 +2,22 @@ import { Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIco
 import Image from 'next/image';
 
 const items = [
-    { value: 'a', title: '월간 어워드', text: 'Some value 1...' },
-    { value: 'b', title: '라이징 어워드', text: 'Some value 2...' },
-    { value: 'c', title: '결산 어워드', text: 'Some value 3...' },
+    {
+        value: 'a',
+        title: '月間アワード',
+        text: '各チャンネル別のトップ10クリップを再生数に基づいて選定、2位と3位は、5つのカテゴリからそれぞれ１名または2名ずつ選出されます。',
+    },
+    { value: 'b', title: 'ライジングアワード', text: 'Some value 2...' },
+    { value: 'c', title: '決算アワード', text: 'Some value 3...' },
 ];
 
 const Merit2 = () => {
     return (
         <div className='container'>
-            <div className='p-[2px] bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 rounded-lg text-center'>
+            <div className='p-[2px] bg-gradient-to-r from-naver-green via-blue-500 to-purple-600 rounded-lg text-center'>
                 <div className='flex flex-col gap-4 bg-black rounded-lg p-4 h-full '>
                     <div>
-                        <span className='text-4xl text-green-400 to-blue-500 font-bold px-4 py-2 rounded-lg mt-2'>
+                        <span className='text-4xl text-naver-green to-blue-500 font-bold px-4 py-2 rounded-lg mt-2'>
                             アワード
                         </span>
                         <p className=' mt-3 text-xl'>

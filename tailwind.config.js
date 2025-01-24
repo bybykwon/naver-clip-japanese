@@ -38,6 +38,7 @@ module.exports = {
                 background: 'var(--background)',
                 foreground: 'var(--foreground)',
                 'custom-dark': '#1C1B23',
+                'naver-green': '#80EA26',
             },
         },
     },

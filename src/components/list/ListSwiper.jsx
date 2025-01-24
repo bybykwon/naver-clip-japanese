@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -7,34 +7,42 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import Image from 'next/image';
-import { Container } from '@chakra-ui/react';
 
 const slidesData = [
-    { src: '/images/components/itembox1/img_info01_v3.gif', alt: 'Media1' },
-    { src: '/images/components/itembox1/img_info02_v5.png', alt: 'Media2' },
-    { src: '/images/components/itembox1/img_info03_v2.png', alt: 'Media3' },
-    { src: '/images/components/itembox1/img_info04_v2.png', alt: 'Media4' },
+    {
+        src: '/images/components/itembox1/img_info01_v3.gif',
+        alt: 'Media1',
+        text: '私のクリップコンテンツがネイバーのあちこちに！',
+    },
+    {
+        src: '/images/components/itembox1/img_info02_v5.png',
+        alt: 'Media2',
+        text: '総額70億！歴史的な規模の補償だから。',
+    },
+    {
+        src: '/images/components/itembox1/img_info03_v2.png',
+        alt: 'Media3',
+        text: '募集人数なんと5,000人！誰にとっても見逃せないチャンスだから。',
+    },
+    {
+        src: '/images/components/itembox1/img_info04_v2.png',
+        alt: 'Media4',
+        text: 'リブートプログラム新設！毎月再チャレンジできるから。',
+    },
 ];
 
 export default function ListSwiper() {
     return (
         <div className='container'>
             <div className='bg-black text-white text-center text-3xl'>
-                <span>
-                    登る時、
-                    <br />
-                    まさに今です。
-                </span>
+                <span></span>
             </div>
             <Swiper
                 slidesPerView={1.2}
                 spaceBetween={20}
                 loop={true}
-                pagination={{
-                    clickable: true,
-                }}
                 breakpoints={{
                     480: {
                         slidesPerView: 1.5,
@@ -57,11 +65,18 @@ export default function ListSwiper() {
                     },
                 }}
                 navigation={true}
-                modules={[Navigation, Pagination]}
+                modules={[Navigation]}
                 className='mySwiper'
             >
                 {slidesData.map((slide, index) => (
-                    <SwiperSlide key={index}>
+                    <SwiperSlide
+                        key={index}
+                        className='relative'
+                    >
+                        {/* 글씨를 슬라이드 상단에 추가 */}
+                        <div className='absolute top-0 left-0 w-full bg-black/70 text-white text-center p-2 text-sm rounded-t-lg'>
+                            {slide.text}
+                        </div>
                         <Image
                             src={slide.src}
                             alt={slide.alt}

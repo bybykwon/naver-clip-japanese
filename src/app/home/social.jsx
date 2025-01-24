@@ -85,10 +85,7 @@ const Social = () => {
                         maxW='xl'
                         bgColor='gray.100 w'
                     >
-                        <div className='bg-black text-white'>
-                            <p>登る時、まさに今です。</p>
-                        </div>
-                        <CardBody className='p-[2px] bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 rounded-lg'>
+                        <CardBody className='p-[2px] bg-gradient-to-r from-naver-green via-blue-500 to-purple-600 rounded-lg'>
                             <div className='flex flex-col gap-4 bg-black rounded-lg p-4 h-full'>
                                 <Image
                                     objectFit='cover'
