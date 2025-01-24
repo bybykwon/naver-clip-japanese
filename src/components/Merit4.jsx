@@ -27,7 +27,7 @@ const Merit4 = () => {
             <div className='p-[2px] bg-gradient-to-r from-naver-green via-blue-500 to-purple-600 rounded-lg'>
                 <div className='flex flex-col gap-6 bg-black rounded-lg p-4'>
                     {' '}
-                    <span className='text-4xl text-naver-green to-blue-500 font-bold px-4 py-2 rounded-lg mt-2 text-center'>
+                    <span className='text-4xl text-center font-bold px-4 py-2 rounded-lg mt-2 bg-gradient-to-r from-naver-green to-blue-500 text-transparent bg-clip-text'>
                         広告インセンティブ
                     </span>
                     <p className='text-center'>

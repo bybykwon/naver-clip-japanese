@@ -21,7 +21,7 @@ const Merit1 = () => {
             <div className='p-[2px] bg-gradient-to-r from-naver-green via-blue-500 to-purple-600 rounded-lg text-center'>
                 <div className='flex flex-col gap-4 bg-black rounded-lg p-4 items-center'>
                     <div>
-                        <span className='text-4xl text-naver-green to-blue-500 font-bold px-4 py-2 rounded-lg'>
+                        <span className='text-4xl font-bold px-4 py-2 rounded-lg mt-2 bg-gradient-to-r from-naver-green to-blue-500 text-transparent bg-clip-text'>
                             活動費
                         </span>
                         <p className=' mt-3 text-xl'>

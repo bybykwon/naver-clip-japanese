@@ -5,10 +5,10 @@ const items = [
     {
         value: 'a',
         title: '月間アワード',
-        text: '各チャンネル別のトップ10クリップを再生数に基づいて選定、2位と3位は、5つのカテゴリからそれぞれ１名または2名ずつ選出されます。',
+        text: '各チャンネル別のトップ10クリップを再生数に基づいて選定! 2位と3位は、5つのカテゴリからそれぞれ１名または2名ずつ選出されます。',
     },
-    { value: 'b', title: 'ライジングアワード', text: 'Some value 2...' },
-    { value: 'c', title: '決算アワード', text: 'Some value 3...' },
+    { value: 'b', title: 'ライジングアワード', text: '' },
+    { value: 'c', title: '決算アワード', text: '' },
 ];
 
 const Merit2 = () => {
@@ -17,7 +17,7 @@ const Merit2 = () => {
             <div className='p-[2px] bg-gradient-to-r from-naver-green via-blue-500 to-purple-600 rounded-lg text-center'>
                 <div className='flex flex-col gap-4 bg-black rounded-lg p-4 h-full '>
                     <div>
-                        <span className='text-4xl text-naver-green to-blue-500 font-bold px-4 py-2 rounded-lg mt-2'>
+                        <span className='text-4xl font-bold px-4 py-2 rounded-lg mt-2 bg-gradient-to-r from-naver-green to-blue-500 text-transparent bg-clip-text'>
                             アワード
                         </span>
                         <p className=' mt-3 text-xl'>
