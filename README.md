@@ -1,6 +1,7 @@
 ## 네이버 클립 홍보페이지 일본어 로컬라이징 클론페이지
 ![index2o](https://github.com/user-attachments/assets/0c30c510-919f-4c38-b014-609220121138)
-![d11](https://github.com/user-attachments/assets/1549e46c-6484-4ecd-b706-841ae59a2392)
+![index2o2](https://github.com/user-attachments/assets/6d8e67d2-a348-4b3b-860a-0dac367cafc6)
+
 NextJS 환경에서 Chakra UI를 활용했습니다.
 
 ## intro gif 제작
