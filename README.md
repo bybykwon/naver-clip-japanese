@@ -13,14 +13,10 @@
 </p>
 
 ## 추가 제작 
-<table>
-  <tr>
-    <td bgcolor="black" style="padding: 10px;">
-      <img width="304" alt="sc01_title_ko" src="https://github.com/user-attachments/assets/8a86df1d-33f6-4ec2-8c52-715d0e75adb7" />
-    </td>
-    <td bgcolor="black" style="padding: 10px;">
-      <img width="304" alt="sc01_title_Jp" src="https://github.com/user-attachments/assets/b8b68386-4669-4428-9622-49ca4d1ef70b" />
-    </td>
-  </tr>
-</table>
--타이틀 글씨를 애니메이션화 했습니다. 오를(登), 지금(今)을 의미를 강조했으며 <br/>위쪽 화살표 모양의 한자 부수(癶 ,人)를 활용해 상승감을 표현했습니다. 
+<div style="background-color: black; display: inline-block; padding: 10px;">
+  <img width="304" alt="sc01_title_ko" src="https://github.com/user-attachments/assets/8a86df1d-33f6-4ec2-8c52-715d0e75adb7" />
+</div>
+<div style="background-color: black; display: inline-block; padding: 10px;">
+  <img width="304" alt="sc01_title_Jp" src="https://github.com/user-attachments/assets/b8b68386-4669-4428-9622-49ca4d1ef70b" />
+</div>
+- 타이틀 글씨를 애니메이션화 했습니다. 오를(登), 지금(今)을 의미를 강조했으며 <br/>위쪽 화살표 모양의 한자 부수(癶 ,人)를 활용해 상승감을 표현했습니다. 
