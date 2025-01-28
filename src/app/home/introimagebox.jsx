@@ -5,7 +5,7 @@ const Introimagebox = () => {
     return (
         <div className='flex justify-center items-center'>
             <Image
-                src='/images/components/sc01_title_mo1.png'
+                src='/images/components/sc01_title_mo1.gif'
                 alt='Title'
                 width={500}
                 height={300}

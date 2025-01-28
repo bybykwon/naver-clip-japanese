@@ -7,9 +7,9 @@ import LongButton from '../../components/longbutton';
 const Hero2 = () => {
     return (
         <div>
-            <AspectRatio ratio={2 / 1}>
-                <MainGif />
-            </AspectRatio>
+            {/* <AspectRatio ratio={2 / 1}> */}
+            <MainGif />
+            {/* </AspectRatio> */}
             <LongButton />
         </div>
     );
