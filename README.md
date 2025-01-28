@@ -13,7 +13,7 @@
 </p>
 
 ## gif 추가 제작
-- 타이틀 글씨를 애니메이션화 했습니다. 오를(登), 지금(今)을 의미를 강조했으며 <br/>위쪽 화살표 모양의 한자 부수(癶 ,人)를 활용해 상승감을 표현했습니다. 
+- 타이틀 글씨를 애니메이션화 했습니다. 오를(登), 지금(今)을 의미를 강조했으며 <br/>위쪽 화살표 모양의 한자 부수(癶 ,人)를 활용해 상승감을 표현했습니다. (총 12프레임)
 <p align="left">
   <img src="https://github.com/user-attachments/assets/ef79a37e-182a-4fc1-b218-04f51a378170" alt="title" width="304">
   <img src="https://github.com/user-attachments/assets/4ef9c1bc-e9c9-4240-b3ec-5ab72466d1e4" alt="gif" width="304">
