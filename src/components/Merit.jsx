@@ -57,8 +57,8 @@ const Merit1 = () => {
                         <strong className='text-naver-green'>全員に毎月</strong>お支払い!
                     </p>
                     <ul>
-                        <li>* 3ヶ月連続基準達成時、その月に5万ウォン追加</li>
-                        <li>* 5ヶ月連続基準を満たした場合、最後の月に10万ウォン追加</li>
+                        <li className='text-naver-green'>* 3ヶ月連続基準達成時、その月に5万ウォン追加</li>
+                        <li className='text-naver-green'>* 5ヶ月連続基準を満たした場合、最後の月に10万ウォン追加</li>
                     </ul>
                 </div>
             </div>

@@ -40,6 +40,9 @@ module.exports = {
                 'custom-dark': '#1C1B23',
                 'naver-green': '#80EA26',
             },
+            fontFamily: {
+                NotoJP: ['"Noto Sans JP"', 'sans-serif'], // 원하는 폰트 이름으로 변경
+            },
         },
     },
     plugins: [
