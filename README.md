@@ -1,6 +1,8 @@
 ## 네이버 클립 일본어 로컬라이징 클론페이지
-![index2o](https://github.com/user-attachments/assets/5f2181e6-c05e-4cd0-bced-78244c881481)
-![index2o2](https://github.com/user-attachments/assets/d7902128-519b-4328-b8f5-cb1c1067ec77)
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/5f2181e6-c05e-4cd0-bced-78244c881481" alt="index2o">
+  <img src="https://github.com/user-attachments/assets/d7902128-519b-4328-b8f5-cb1c1067ec77" alt="index2o2">
+</p>
 - UI유지 UX개편(스와이퍼 크기, 가독성 등)
 - NextJS 환경에서 Chakra UI를 활용했습니다.
 
