@@ -24,7 +24,7 @@ const slidesData = [
     {
         src: '/images/components/itembox1/img_info03_v2.png',
         alt: 'Media3',
-        text: '募集なんと5,000人！誰にとっても<br /><strong>見逃せないチャンス</strong>だから。',
+        text: 'なんと5,000人募集中！誰にとっても<br /><strong>見逃せないチャンス</strong>だから。',
     },
     {
         src: '/images/components/itembox1/img_info04_v2.png',

@@ -6,6 +6,7 @@ import Hero2 from './hero2';
 import ListSwiper from '@/components/list/ListSwiper';
 import MeritSec from './meritSector';
 import Introimagebox from './introimagebox';
+import Imagebox1 from './imagebox1';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Hero2 />
             <Introimagebox />
             <ListSwiper />
+            <Imagebox1 />
             <MeritSec />
             <IntroSwiper />
             {/* <News

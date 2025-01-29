@@ -8,7 +8,7 @@ const Merit3 = () => {
                     <span className='text-4xl font-bold px-4 py-2 rounded-lg mt-2 bg-gradient-to-r from-naver-green to-blue-500 text-transparent bg-clip-text'>
                         広告インセンティブ
                     </span>
-                    <p>
+                    <p className='mt-3 text-xl'>
                         頑張った分だけ成長する収益
                         <br />
                         クリップの再生数が増えれば増えるほど<strong>より多くの報酬</strong>を得ることができます。
