@@ -13,14 +13,14 @@ export default function RootLayout({ children }) {
                     name='viewport'
                     content='width=device-width, initial-scale=1.0'
                 />
-                <title>next.js themplate</title>
+                <title>Naverクリップクリエイター</title>
                 <meta
                     property='og:type'
-                    content='website'
+                    content='권병윤 개인프로젝트'
                 />
                 <meta
                     property='og:title'
-                    content='페이지 제목'
+                    content='Naverクリップクリエイター'
                 />
                 <meta
                     property='og:description'
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
                 />
                 <meta
                     property='og:image'
-                    content='http://www.mysite.com/article/article1_featured_image.jpg'
+                    content='/images/titleImage.jpg'
                 />
                 <meta
                     property='og:url'

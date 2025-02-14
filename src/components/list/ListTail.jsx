@@ -28,3 +28,5 @@ const ListTail = ({ mockNews }) => {
 }
 
 export default ListTail
+
+
